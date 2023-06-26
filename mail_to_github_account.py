@@ -52,7 +52,7 @@ def get_commit_author(repo_name, token,username):
             commit_author = commits[0]['author']['login']
             commit_author_id = commits[0]['author']['id']
             
-            print("The name of the author of the latest commit is:", commit_author)
+            print("Account related to this email:", commit_author)
             print("The ID of the account is:", commit_author_id)
         else:
             print("No commits found in the project.")
