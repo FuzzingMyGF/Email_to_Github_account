@@ -70,8 +70,8 @@ def delete_github_repo(repo_name, token,username):
     else:
         print("An error occurred while deleting the GitHub project.")
 
-repo_name = input("Enter the name of the new GitHub project: ")
-git_token = input("Enter your GitHub API Token: ")
+repo_name = input("Enter the name of the new GitHub project (will be deleted after retrieving the account): ")
+git_token = input("Enter your GitHub API Token (Need to have permission to create,read infos and delete the repo created): ")
 git_username = input("Enter your GitHub username: ")
 create_github_repo(repo_name, git_token)
 email = input("Enter the email address from which you are looking for the github account :) : ")
