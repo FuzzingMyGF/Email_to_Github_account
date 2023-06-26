@@ -46,7 +46,7 @@ def get_commit_author(repo_name, token,username):
         commits = response.json()
         if len(commits) > 0:
             if not commits[0]['author']['login']:
-                print("Account block configured to block fake git push")
+                print("Account configured to block fake git push")
                 return
 
             commit_author = commits[0]['author']['login']
