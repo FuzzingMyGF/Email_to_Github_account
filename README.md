@@ -1,5 +1,5 @@
 
-# Mail_to_Github_account
+# Email_to_Github_account
 An OSINT tool that permit to obtain the username of an Github account by simply specifying a mail adress, even is the mail is set in private.
 
 Account is obtained by committing with the email of the person you want to obtain the account.
