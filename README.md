@@ -7,7 +7,7 @@ Beware of OPSEC Tho
 
 ## Remediation
 
-Under your github settings just go to 'email' and check the to boxes "make my email private" and "Block command line pushes that expose my email"
+none lol
 
 ## Prerequisites
 
